@@ -8,7 +8,7 @@ namespace WebApi.Applications.OrderOperations.Commands.UpdateOrder
   {
     private readonly IMovieStoreDbContext _context;
     public int OrderId { get; set; }
-    public UpdateMovieModel Model { get; set; }
+    public UpdateOrderModel Model { get; set; }
     public UpdateOrderCommand(IMovieStoreDbContext context)
     {
       _context = context;
@@ -26,7 +26,7 @@ namespace WebApi.Applications.OrderOperations.Commands.UpdateOrder
       _context.SaveChanges();
     }
 
-    public class UpdateMovieModel
+    public class UpdateOrderModel
     {
       public int MovieId { get; set; }
       public int BuyerId { get; set; }
