@@ -11,6 +11,7 @@ namespace WebApi.Entities
     public string MovieName { get; set; }
     public int MoviePrice { get; set; }
     public int MovieGenreId { get; set; }
+    public int MovieId { get; set; }
     public Movie Movie { get; set; }
     public DateTime BuyDate  { get; set; }   
   }
