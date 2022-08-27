@@ -1,5 +1,5 @@
 using FluentValidation;
-using WebApi.Applications.ActorOperations.Commands.DeleteDelete;
+using WebApi.Applications.ActorOperations.Commands.DeleteActor;
 
 namespace WebApi.Applications.ActorOperations.Commands.DeleteActor
 {

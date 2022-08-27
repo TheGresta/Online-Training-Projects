@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using WebApi.DBOperations;
 
-namespace WebApi.Applications.ActorOperations.Commands.DeleteDelete
+namespace WebApi.Applications.ActorOperations.Commands.DeleteActor
 {
   public class DeleteActorCommand
   {
