@@ -1,6 +1,6 @@
 using System;
 using System.Linq;
-using WebApi.DbOperators;
+using WebApi.DBOperations;
 using WebApi.Entities;
 
 namespace WebApi.Applications.SingerOperations.Commands.CreateSinger
@@ -9,21 +9,21 @@ namespace WebApi.Applications.SingerOperations.Commands.CreateSinger
   {
     public CreateSingerModel Model { get; set; }
     private readonly IPlayListDbContext _context;
-    public CreateSingerModel(IPlayListDbContext context)
+    public CreateSingerCommand(IPlayListDbContext context)
     {
       _context = context;
     }
     public void Handle()
   {
-    var singer = _context.Singers.SingleOrDefault(x => x.Name == Model.Name);
-      if(author is not null)
-       throw new InvalidOperationException("Author Already Exist.");
+    var singer = _context.Singers.SingleOrDefault(x => x.Name == Model.Name && x.LastName == Model.LastName);
+      if(singer is not null)
+       throw new InvalidOperationException("Singer Already Exist.");
 
-      author = new Author();
-      author.Name = Model.Name;
-      author.LastName = Model.LastName;
-      author.BirthDate = Model.BirthDate;
-      _context.Authors.Add(author);
+      singer = new Singer();
+      singer.Name = Model.Name;
+      singer.LastName = Model.LastName;
+      singer.BirthDate = Model.BirthDate;
+      _context.Singers.Add(singer);
       _context.SaveChanges();
   }
   }  

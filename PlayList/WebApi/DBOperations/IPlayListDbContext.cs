@@ -3,10 +3,10 @@ using WebApi.Entities;
 
 namespace WebApi.DBOperations
 {
-  public interface IBookStoreDbContext
+  public interface IPlayListDbContext
   {
-    DbSet<Singer> Singer { get; set; }
-    DbSet<Song> Song { get; set; }
+    DbSet<Singer> Singers { get; set; }
+    DbSet<Song> Songs { get; set; }
     DbSet<User> Users { get; set; }
     int SaveChanges();
   }

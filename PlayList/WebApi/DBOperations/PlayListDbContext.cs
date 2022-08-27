@@ -3,9 +3,9 @@ using WebApi.Entities;
 
 namespace WebApi.DBOperations
 {
-  public class BookStoreDbContext : DbContext, IBookStoreDbContext
+  public class PlayListDbContext : DbContext, IPlayListDbContext
   {
-    public BookStoreDbContext(DbContextOptions<BookStoreDbContext> option):base(option)
+    public PlayListDbContext(DbContextOptions<PlayListDbContext> option):base(option)
     { }
 
     public DbSet<Singer> Singers { get; set; }
