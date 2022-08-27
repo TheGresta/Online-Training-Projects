@@ -1,10 +1,3 @@
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\appsettings.Development.json
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\appsettings.json
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\WebApi.exe
@@ -33,6 +26,13 @@ C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\S
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\scopedcss\bundle\WebApi.styles.css
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.RazorTargetAssemblyInfo.cache

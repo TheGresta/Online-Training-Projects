@@ -25,6 +25,9 @@ namespace WebApi.Applications.OrderOperations.Commands.CreateOrder
         throw new InvalidOperationException("Order Already Exist");
 
       order = _mapper.Map<Order>(Model);
+      order.User = _context.Users.SingleOrDefault(x => x.Id == Model.BuyerId);
+      order.Movie = _context.Movies.SingleOrDefault(x => x.Id == Model.MovieId);
+      order.MovieGenreId = order.Movie.GenreId;
       _context.Orders.Add(order);
       _context.SaveChanges();
     }
@@ -33,6 +36,7 @@ namespace WebApi.Applications.OrderOperations.Commands.CreateOrder
     {
       public int MovieId { get; set; }
       public int BuyerId { get; set; }
+      public DateTime BuyDate { get; set; } = DateTime.Now.Date;
     }
   }
 }

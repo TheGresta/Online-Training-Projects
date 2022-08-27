@@ -23,6 +23,9 @@ namespace WebApi.Applications.OrderOperations.Commands.UpdateOrder
 
       order.BuyerId = Model.BuyerId != default ? Model.BuyerId : order.BuyerId;
       order.MovieId = Model.MovieId != default ? Model.MovieId : order.MovieId;
+      order.User = _context.Users.SingleOrDefault(x => x.Id == Model.BuyerId);
+      order.Movie = _context.Movies.SingleOrDefault(x => x.Id == Model.MovieId);
+      order.MovieGenreId = order.Movie.GenreId;
       _context.SaveChanges();
     }
 
@@ -30,6 +33,7 @@ namespace WebApi.Applications.OrderOperations.Commands.UpdateOrder
     {
       public int MovieId { get; set; }
       public int BuyerId { get; set; }
+      public DateTime BuyDate { get; set; } = DateTime.Now.Date;
     }
   }
 }

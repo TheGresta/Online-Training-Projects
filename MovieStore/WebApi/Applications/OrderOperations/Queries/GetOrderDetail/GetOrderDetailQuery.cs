@@ -20,7 +20,7 @@ namespace WebApi.Applications.OrderOperations.Queries.GetOrderDetail
 
     public OrderDetailViewModel Handle()
     {
-      var order = _context.Orders.SingleOrDefault(order => order.Id == OrderId);
+      var order = _context.Orders.Include(x => x.Movie).Include(x => x.Genre).Include(x => x.User).SingleOrDefault(order => order.Id == OrderId);
       if(order is null)
         throw new InvalidOperationException("Order Could Not Be Found");
       OrderDetailViewModel vm = _mapper.Map<OrderDetailViewModel>(order);
@@ -33,7 +33,7 @@ namespace WebApi.Applications.OrderOperations.Queries.GetOrderDetail
     public DateTime BuyDate  { get; set; }   
     public string MovieName { get; set; }    
     public string MovieGenre { get; set; }
-    public int MoviePrice { get; set; } 
+    public string MoviePrice { get; set; } 
     }
   }
 }

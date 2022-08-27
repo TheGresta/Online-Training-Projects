@@ -20,7 +20,7 @@ namespace WebApi.Applications.OrderOperations.Queries.GetOrders
 
     public List<OrdersViewModel> Handle()
     {
-      var orderList = _context.Orders.OrderBy(x => x.Id).ToList<Order>();
+      var orderList = _context.Orders.Include(x => x.Movie).Include(x => x.User).Include(x => x.Genre).OrderBy(x => x.Id).ToList<Order>();
       List<OrdersViewModel> vm = _mapper.Map<List<OrdersViewModel>>(orderList);
       return vm;
     }
@@ -31,7 +31,7 @@ namespace WebApi.Applications.OrderOperations.Queries.GetOrders
       public DateTime BuyDate  { get; set; }   
       public string MovieName { get; set; }    
       public string MovieGenre { get; set; }
-      public int MoviePrice { get; set; } 
+      public string MoviePrice { get; set; } 
     }
   }
 }

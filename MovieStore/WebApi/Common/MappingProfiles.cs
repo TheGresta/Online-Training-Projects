@@ -17,6 +17,9 @@ using WebApi.Entities;
 using static WebApi.Applications.MovieOperations.Commands.CreateMovie.CreateMovieCommand;
 using static WebApi.Applications.MovieOperations.Queries.GetMovieDetail.GetMovieDetailQuery;
 using static WebApi.Applications.MovieOperations.Queries.GetMovies.GetMoviesQuery;
+using static WebApi.Applications.OrderOperations.Commands.CreateOrder.CreateOrderCommand;
+using static WebApi.Applications.OrderOperations.Queries.GetOrderDetail.GetOrderDetailQuery;
+using static WebApi.Applications.OrderOperations.Queries.GetOrders.GetOrdersQuery;
 
 namespace WebAi.Common
 {
@@ -33,6 +36,18 @@ namespace WebAi.Common
         .ForMember(dest => dest.Genre, opt => opt.MapFrom(src => src.Genre.Name))
         .ForMember(dest => dest.Director, opt => opt.MapFrom(src => src.Director.Name + " " + src.Director.LastName))
         .ForMember(dest => dest.Actors, opt => opt.MapFrom(src => returnActors(src.Actors)));
+
+        CreateMap<CreateOrderModel, Order>();      
+        CreateMap<Order, OrderDetailViewModel>()
+          .ForMember(dest => dest.BuyerName, opt => opt.MapFrom(src => src.User.Name + " " + src.User.LastName))
+          .ForMember(dest => dest.MovieGenre, opt => opt.MapFrom(src => src.Movie.Genre.Name))
+          .ForMember(dest => dest.MovieName, opt => opt.MapFrom(src => src.Movie.Name))
+          .ForMember(dest => dest.MoviePrice, opt => opt.MapFrom(src => src.Movie.Price + " $"));
+        CreateMap<Order, OrdersViewModel>()
+          .ForMember(dest => dest.BuyerName, opt => opt.MapFrom(src => src.User.Name + " " + src.User.LastName))
+          .ForMember(dest => dest.MovieGenre, opt => opt.MapFrom(src => src.Movie.Genre.Name))
+          .ForMember(dest => dest.MovieName, opt => opt.MapFrom(src => src.Movie.Name))
+          .ForMember(dest => dest.MoviePrice, opt => opt.MapFrom(src => src.Movie.Price + " $"));
 
       CreateMap<Genre, GenresViewModel>();
       CreateMap<Genre, GenreDetailViewModel>();
