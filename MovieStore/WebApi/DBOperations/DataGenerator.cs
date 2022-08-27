@@ -52,7 +52,7 @@ namespace WebApi.DBOperations
         context.Movies.AddRange(
           new Movie{
             Name = "The Godfater", 
-            GenreId = 6, DirectorId = 1, 
+            GenreId = 6, DirectorId = 1, Price = 30,
             PublishDate = new DateTime(1972), 
             Actors = new List<Actor>(){
               new Actor{Name = "Robert", LastName = "DeNiro"},
@@ -63,7 +63,7 @@ namespace WebApi.DBOperations
               new Actor{Name = "Elizabeth", LastName = "Taylor"}}},
           new Movie{
             Name = "Citizen Kane", 
-            GenreId = 3, DirectorId = 2, 
+            GenreId = 3, DirectorId = 2, Price = 20,
             PublishDate = new DateTime(1941), 
             Actors = new List<Actor>(){
               new Actor{Name = "Marlon", LastName = "Brando"},
@@ -73,7 +73,7 @@ namespace WebApi.DBOperations
               new Actor{Name = "Meryl", LastName = "Streep"}}},
           new Movie{
             Name = "La Dolce Vita", 
-            GenreId = 7, DirectorId = 3, 
+            GenreId = 7, DirectorId = 3, Price = 10,
             PublishDate = new DateTime(1960), 
             Actors = new List<Actor>(){
               new Actor{Name = "Katharine", LastName = "Hepburn"},
@@ -85,7 +85,7 @@ namespace WebApi.DBOperations
               new Actor{Name = "Ingrid", LastName = "Bergman"}}},
           new Movie{
             Name = "Seven Samurai", 
-            GenreId = 1, DirectorId = 4, 
+            GenreId = 1, DirectorId = 4, Price = 40,
             PublishDate = new DateTime(1954), 
             Actors = new List<Actor>(){
               new Actor{Name = "Meryl", LastName = "Streep"},
@@ -98,7 +98,7 @@ namespace WebApi.DBOperations
               new Actor{ Name = "Bette", LastName = "Davis"}}},
           new Movie{
             Name = "There Will Be Blood", 
-            GenreId = 3, DirectorId = 5, 
+            GenreId = 3, DirectorId = 5, Price = 25,
             PublishDate = new DateTime(2007), 
             Actors = new List<Actor>(){
               new Actor{Name = "Tom", LastName = "Hanks"},
@@ -109,7 +109,7 @@ namespace WebApi.DBOperations
               new Actor{Name = "Katharine", LastName = "Hepburn"}}},
           new Movie{
             Name = "Singing in the Rain", 
-            GenreId = 5, DirectorId = 6, 
+            GenreId = 5, DirectorId = 6, Price = 15,
             PublishDate = new DateTime(1952), 
             Actors = new List<Actor>(){
               new Actor{Name = "Robert", LastName = "DeNiro"},
@@ -126,6 +126,40 @@ namespace WebApi.DBOperations
               new Actor{Name = "Tom", LastName = "Hanks"},
               new Actor{Name = "Elizabeth", LastName = "Taylor"},
               new Actor{ Name = "Bette", LastName = "Davis"}}}    
+        );
+
+        context.Users.AddRange(
+          new User{
+            Name = "Aslı",
+            LastName = "Yılmaz",
+            Email = "aslı@hotmail.com",
+            Password = "123456",
+            PurcgasedMovies = new List<Movie>(),
+            FavoriteGenres = new List<Genre>(){
+              new Genre{Name = "Action"},
+              new Genre{Name = "Comedy"},
+              new Genre{Name = "Drama"},
+              new Genre{Name = "Fantasy"},
+              new Genre{Name = "Horror"},
+              new Genre{Name = "Mystery"},
+              new Genre{Name = "Romance"}}},
+          new User{
+            Name = "Enver",
+            LastName = "Canlı",
+            Email = "enver@hotmail.com",
+            Password = "123321",
+            PurcgasedMovies = new List<Movie>(),
+            FavoriteGenres = new List<Genre>(){
+              new Genre{Name = "Action"},
+              new Genre{Name = "Comedy"}}},
+          new User{
+            Name = "Kamil",
+            LastName = "Kosucu",
+            Email = "kamil@hotmail.com",
+            Password = "111222",
+            PurcgasedMovies = new List<Movie>(),
+            FavoriteGenres = new List<Genre>(){
+              new Genre{Name = "Action"}}}
         );
                   
         context.SaveChanges(); 
