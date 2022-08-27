@@ -12,9 +12,9 @@ namespace WebApi.Entities
     public string Password { get; set; }
     public string RefreshToken { get; set; }
     public DateTime? RefreshTokenExpireDate { get; set; }
-    public List<Genre> FavoriteGenres { get; set; }
+    public List<Genre> Genres { get; set; }
     public Genre Genre { get; set; }
-    public List<Movie> PurcgasedMovies { get; set; }
+    public List<Movie> Movies { get; set; }
     public Movie Movie { get; set; }
   }
 }

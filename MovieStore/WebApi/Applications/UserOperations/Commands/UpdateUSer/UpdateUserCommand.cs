@@ -29,7 +29,7 @@ namespace WebApi.Applications.UserOperations.Commands.UpdateUser
       user.LastName = string.IsNullOrEmpty(Model.LastName.Trim()) ? user.LastName : Model.LastName;
       user.Password = string.IsNullOrEmpty(Model.Password.Trim()) ? user.Password : Model.Password;
       user.Email = string.IsNullOrEmpty(Model.Email.Trim()) ? user.Email : Model.Email;
-      user.FavoriteGenres = Model.FavoriteGenres.Any() ? Model.FavoriteGenres : user.FavoriteGenres;
+      user.Genres = Model.FavoriteGenres.Any() ? user.Genres : Model.FavoriteGenres;
       _context.SaveChanges();
     }
   }

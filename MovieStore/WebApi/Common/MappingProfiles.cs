@@ -46,7 +46,8 @@ namespace WebAi.Common
       CreateMap<CreateDirectorModel, Director>();
 
       CreateMap<CreateUserModel, User>();
-      CreateMap<User, UsersViewModel>();
+      CreateMap<User, UsersViewModel>()
+      .ForMember(dest => dest.Genres, opt => opt.MapFrom(src => returnGenres(src.Genres)));
       CreateMap<User, UserDetailViewModel>();
     }
     public List<string> returnActors(List<Actor> actors)
@@ -57,6 +58,16 @@ namespace WebAi.Common
         actorNames.Add(actor.Name + " " + actor.LastName);
       }
       return actorNames;
+    }
+
+    public List<string> returnGenres(List<Genre> genres)
+    {
+      List<string> genreNames = new List<string>();
+      foreach(Genre genre in genres)
+      {
+        genreNames.Add(genre.Name);
+      }
+      return genreNames;
     }
   }
 }

@@ -31,7 +31,7 @@ namespace WebApi.Applications.UserOperations.Queries.GetUsers
     public string LastName { get; set; }
     public string Password { get; set; }
     public string Email { get; set; }    
-    public List<Movie> PurcgasedMovies { get; set; }
-    public List<Genre> FavoriteGenres { get; set; }
+    public List<string> Movies { get; set; }
+    public List<string> Genres { get; set; }
   }
 }
