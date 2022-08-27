@@ -106,8 +106,7 @@ namespace WebApi.DBOperations
             Email = "kamil@hotmail.com",
             Password = "111222",
             Movies = new List<Movie>(),
-            Genres = new List<Genre>()}
-        );                  
+            Genres = new List<Genre>()});                  
         context.SaveChanges(); 
       }
     }    

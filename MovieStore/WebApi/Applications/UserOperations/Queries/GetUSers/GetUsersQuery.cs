@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using WebApi.DBOperations;
 using WebApi.Entities;
 
@@ -18,7 +19,7 @@ namespace WebApi.Applications.UserOperations.Queries.GetUsers
     }
     public List<UsersViewModel> Handle()
     {
-      var users = _context.Users.OrderBy(x => x.Id);
+      var users = _context.Users.Include(x => x.Genres).Include(x => x.Movies).OrderBy(x => x.Id);
       List<UsersViewModel> returnObj = _mapper.Map<List<UsersViewModel>>(users);
       return returnObj;
     }

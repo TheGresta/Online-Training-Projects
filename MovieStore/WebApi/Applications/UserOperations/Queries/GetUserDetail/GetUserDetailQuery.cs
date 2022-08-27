@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using WebApi.DBOperations;
 using WebApi.Entities;
 
@@ -19,7 +20,7 @@ namespace WebApi.Applications.UserOperations.Queries.GetUserDetail
     }
     public UserDetailViewModel Handle()
     {
-      var user = _context.Users.SingleOrDefault(x => x.Id == UserId);
+      var user = _context.Users.Include(x => x.Genres).Include(x => x.Movies).SingleOrDefault(x => x.Id == UserId);
       if(user is null)
         throw new InvalidOperationException("User Does Not Exist!");
       return _mapper.Map<UserDetailViewModel>(user);

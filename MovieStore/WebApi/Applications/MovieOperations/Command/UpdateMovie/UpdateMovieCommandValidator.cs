@@ -13,7 +13,7 @@ namespace WebApi.Applications.MovieOperations.Commands.UpdateMovie
       RuleFor(command => command.Model.Price).GreaterThan(10);
       RuleFor(command => command.Model.Name).NotEmpty().MinimumLength(4);
       RuleFor(command => command.Model.PublishDate).NotEmpty().LessThan(DateTime.Now.Date);
-      RuleFor(command => command.Model.Actors).NotEmpty();
+      RuleFor(command => command.Model.ActorIdList).NotEmpty();
     }
   }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using AutoMapper;
 using WebApi.Applications.ActorOperations.Commands.CreateActor;
@@ -47,7 +48,8 @@ namespace WebAi.Common
 
       CreateMap<CreateUserModel, User>();
       CreateMap<User, UsersViewModel>()
-      .ForMember(dest => dest.Genres, opt => opt.MapFrom(src => returnGenres(src.Genres)));
+        .ForMember(dest => dest.Genres, opt => opt.MapFrom(src => returnGenres(src.Genres)))
+        .ForMember(dest => dest.Movies, opt => opt.MapFrom(src => returnMovies(src.Movies)));
       CreateMap<User, UserDetailViewModel>();
     }
     public List<string> returnActors(List<Actor> actors)
@@ -68,6 +70,15 @@ namespace WebAi.Common
         genreNames.Add(genre.Name);
       }
       return genreNames;
+    }
+    public List<string> returnMovies(List<Movie> movies)
+    {
+      List<string> movieNames = new List<string>();
+      foreach(Movie movie in movies)
+      {
+        movieNames.Add(movie.Name);
+      }
+      return movieNames;
     }
   }
 }
