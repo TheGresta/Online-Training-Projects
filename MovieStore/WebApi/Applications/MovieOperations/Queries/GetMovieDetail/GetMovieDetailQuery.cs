@@ -33,9 +33,9 @@ namespace WebApi.Applications.MovieOperations.Queries.GetMovieDetail
       public string Name { get; set; }
       public int Price { get; set; }   
       public  DateTime PublishDate { get; set; }
-      public int GenreId { get; set; }
-      public int DirectorId { get; set; }
-      public List<Actor> Actors { get; set; }     
+      public string Genre { get; set; }
+      public string Director { get; set; }
+      public List<string> Actors { get; set; }     
     }
   }
 }
