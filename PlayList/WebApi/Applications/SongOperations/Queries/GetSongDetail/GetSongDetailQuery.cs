@@ -29,8 +29,7 @@ namespace WebApi.Applications.SongOperations.Queries.GetSongDetail
     public class SongDetailViewModel
     {
       public string Title { get; set; }
-      public string Singer { get; set; }
-      public string PublishDate { get; set; }      
+      public string Singer { get; set; }   
     }
   }
 }

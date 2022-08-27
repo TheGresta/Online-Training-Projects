@@ -32,8 +32,7 @@ namespace WebApi.Applications.SongOperations.Commands.CreateSong
     public class CreateSongModel
     {
       public string Title { get; set; }
-      public int SingerId { get; set; }
-      public DateTime PublishDate { get; set; }      
+      public int SingerId { get; set; }   
     }
   }
 }

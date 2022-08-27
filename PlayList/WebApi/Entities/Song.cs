@@ -10,6 +10,5 @@ namespace WebApi.Entities
     public string Title { get; set; }
     public int SingerId { get; set; }
     public Singer Singer { get; set; }
-    public  DateTime PublishDate { get; set; }
   }
 }

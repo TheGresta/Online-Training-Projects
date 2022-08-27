@@ -27,7 +27,6 @@ namespace WebApi.Applications.SongOperations.Queries.GetSongs
     public class SongsViewModel
     {
       public string Title { get; set; }
-      public string PublishDate { get; set; }
       public string Singer { get; set; }
     }
   }

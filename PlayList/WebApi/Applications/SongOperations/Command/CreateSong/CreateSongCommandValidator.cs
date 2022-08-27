@@ -8,8 +8,6 @@ namespace WebApi.Applications.SongOperations.Commands.CreateSong
     public CreateSongCommandValidator()
     {
       RuleFor(command => command.Model.SingerId).GreaterThan(0);
-      RuleFor(command => command.Model.PublishDate.Date).
-      NotEmpty().LessThan(DateTime.Now.Date);
       RuleFor(command => command.Model.Title).NotEmpty().MinimumLength(4);
     }
   }
