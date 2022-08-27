@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lzbQ8gLXH/YCWrGLVwo27sqI2ch1L+C0aa07sq7xIYdrAZxG+j+Yfsn7NujS7+/jsMGBxlT1bI8+93fitjXRvw==",
+  "dgSpecHash": "amXoMd2+0t24Mgj7Sme1Zpn9qDM76JYje2N92AnsFU9DT+D9ReC1/UYbqRpHAhgTQG1viNk+qAIB/a1GLbxsvQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\PlayList\\WebApi\\WebApi.csproj",
+  "projectFilePath": "C:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\PlayList\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DincF\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\DincF\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
