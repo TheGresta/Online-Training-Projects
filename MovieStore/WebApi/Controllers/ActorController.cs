@@ -11,9 +11,9 @@ using WebApi.DBOperations;
 
 namespace WebApi.Controllers
 {
-  [Authorize]
+  //[Authorize]
   [ApiController]
-  [Route("[controller]s")]
+  [Route("[Controller]s")]
   public class ActorController : ControllerBase
   {
      private readonly MovieStoreDbContext _context; 
