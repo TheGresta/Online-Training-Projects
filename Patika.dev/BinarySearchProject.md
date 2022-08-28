@@ -1,4 +1,4 @@
-# Insertion Sort Project
+# Binary Search Project
 
 **[22, 27, 16, 2, 18, 6]**
 
