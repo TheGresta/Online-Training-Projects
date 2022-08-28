@@ -1,4 +1,3 @@
-# .Net 5.0 Training
- .Net Core / .Net 5.0 / Git-Github Training project
- 
-With "Zikriye Ürkmez Cengiz" at www.patika.dev
+# Book Store
+
+Customer-Book marketing project with .Net 5.0

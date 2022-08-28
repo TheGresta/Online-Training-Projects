@@ -1,4 +1,13 @@
-# Movie-Store
-### .Net 5.0 Training
+# Online Training Projects
 
-"Movie Store" and "Play List" projects with .Net 5.0
+I have create this projects while doing online training in www.patika.dev
+
+### .Net 5.0 Training
+* Movie Store
+* Book Store
+* Play List
+
+### Mini Task Files
+* Binary Search Project
+* Insertion Sorting Project
+* Merge Sorting Project
