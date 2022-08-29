@@ -1409,11 +1409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj",
+      "projectUniqueName": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj",
       "projectName": "WebApi",
-      "projectPath": "C:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj",
+      "projectPath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj",
       "packagesPath": "C:\\Users\\DincF\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\obj\\",
+      "outputPath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

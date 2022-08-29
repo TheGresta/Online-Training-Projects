@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj": {}
+    "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj": {
+    "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj",
+        "projectPath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\DincF\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\obj\\",
+        "outputPath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

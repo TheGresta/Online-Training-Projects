@@ -42,3 +42,47 @@ C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\r
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.pdb
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
 C:\Users\DincF\Documents\GitHub\Movie-Store\MovieStore\WebApi\obj\Debug\net5.0\ref\WebApi.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\appsettings.Development.json
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\appsettings.json
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.exe
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.deps.json
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.runtimeconfig.json
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.runtimeconfig.dev.json
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\WebApi.pdb
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\AutoMapper.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\FluentValidation.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Newtonsoft.Json.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.AssemblyReference.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfoInputs.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.AssemblyInfo.cs
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.CoreCompileInputs.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\scopedcss\bundle\WebApi.styles.css
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\staticwebassets\WebApi.StaticWebAssets.Manifest.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.RazorTargetAssemblyInfo.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.csproj.CopyComplete
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\refint\WebApi.dll
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.pdb
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\WebApi.genruntimeconfig.cache
+c:\Users\DincF\Documents\GitHub\Online-Training-Projects\.Net Core Training\MovieStore\MovieStore\WebApi\obj\Debug\net5.0\ref\WebApi.dll

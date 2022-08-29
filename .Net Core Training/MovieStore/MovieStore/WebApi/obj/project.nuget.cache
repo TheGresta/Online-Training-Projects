@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hIdCLUr3v+/ZN8F+f02uueVtBVaLtF/dryMzEWdK8/2ig+wLgfkrMZmP4XGJkFI45e0na5gwGrxqSeHj/YUm0w==",
+  "dgSpecHash": "15a2kgBwg/02f6sgqRRmZmGVOfJM1X8W0PrGStMUYTz+a6OUetm7zPbC2yzM4m6P087Wr8E1mKnXwXbpDC5tWw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\DincF\\Documents\\GitHub\\Movie-Store\\MovieStore\\WebApi\\WebApi.csproj",
+  "projectFilePath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DincF\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\DincF\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
