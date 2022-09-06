@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Lbq5fKP1vUJBAi/ZHjHw9rJ4+k5wCGQw0MH5zq1CJcLbQLGUETEcawhODmXW0Jtf/0w+z6vq/cgROmiY4/SqQ==",
+  "dgSpecHash": "aYIu63AO8Dk+g2VVltdHWmVEHZuJK0UDJ/yFoB3RL5EPpQQZGMwl7h28EB2vISv6OAnHxAc4gxFLujf6i2riXA==",
   "success": true,
   "projectFilePath": "c:\\Users\\DincF\\Documents\\GitHub\\Online-Training-Projects\\.Net Core Training\\MovieStore\\MovieStore\\Tests\\WebApi.UnitTests\\WebApi.UnitTests.csproj",
   "expectedPackageFiles": [
