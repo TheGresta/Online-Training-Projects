@@ -5,3 +5,4 @@ RUN npm install
 CMD ["node", "app.js"];
 
 # docker-compose build
+# docker-compose up
