@@ -3,6 +3,9 @@
 I have create this projects while doing online training in www.patika.dev
 
 # .Net 5.0 Training
+
+[RoadMap](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap)
+
 * Movie Store  Project
 * Book Store Project
 * Play List Project
