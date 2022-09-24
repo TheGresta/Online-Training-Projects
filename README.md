@@ -2,6 +2,10 @@
 
 I have create this projects while doing online training in www.patika.dev
 
+# Certificates
+
+[The Intermediate .Net Core Path](https://app.patika.dev/certificates/f2ee4c09)
+
 # .Net 5.0 Training
 
 [RoadMap](https://github.com/MoienTajik/AspNetCore-Developer-Roadmap)
@@ -33,7 +37,18 @@ I have create this projects while doing online training in www.patika.dev
 * SUBQUERIES
 * UNION - INTERSECT - EXCEPT
 
+# Docker
+
+[Docker Guide](https://github.com/gkandemi/docker)
+
+* CMD Entrypoint
+* Docker Compose
+* Node App Ubuntu
+* Node Mongo Todo
+* Python App
+
 # Mini Task Files
+
 * Binary Search Task
 * Insertion Sorting Task
 * Merge Sorting Task
